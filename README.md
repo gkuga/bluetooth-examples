@@ -7,6 +7,10 @@
 - [bluez/bluez/doc/errors.txt](https://github.com/bluez/bluez/blob/master/doc/errors.txt)
 - [Raspberry Pi 3B+ が保持できる BLE コネクション数の限界を調べてみた #RaspberryPi](https://dev.classmethod.jp/articles/raspberry-pi-3b-plus-max-ble-connection/)
 
+### 同時接続数に関する仮説
+
+Bluetoothドングルの同時接続するがまず存在する。その制限に関してはHCIでエラーが定義されている。その次にUSBハブの帯域が問題になる。最後にBluetoothスタックで接続を維持するときのリソース制限が問題になる。リソースにはメモリやCPU,g_io_add_watch_fullなどでファイルやソケットを監視したときの上限など。
+
 ### 制限に係る事項(要調査)
 
 - Bluetoothアダプタのハードウェア制限
