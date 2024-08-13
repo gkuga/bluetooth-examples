@@ -1,5 +1,6 @@
 ネットを探すと同時接続数に関して様々な制限にかんする問題について言及されている。
 
+- [Part F. Controller Error Codes](https://www.bluetooth.com/wp-content/uploads/Files/Specification/HTML/Core-54/out/en/architecture,-mixing,-and-conventions/controller-error-codes.html)
 - [Is there a maximum of parallel BLE Connections? Only 5 are working! #214](https://github.com/noble/noble/issues/214)
 - [HFP: Error 0x0d (connection rejected due to limited resources) when HF initiates a synchronous connection](https://github.com/bluekitchen/btstack/issues/175)
 - [BLE-Stack APIs](https://software-dl.ti.com/lprf/simplelink_cc2640r2_sdk/1.35.00.33/exports/docs/ble5stack/ble_user_guide/html/doxygen/group___h_c_i___error___codes.html)
