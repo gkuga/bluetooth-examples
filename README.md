@@ -1,6 +1,7 @@
 ネットを探すと同時接続数に関して様々な制限にかんする問題について言及されている。
 
 - [Is there a maximum of parallel BLE Connections? Only 5 are working! #214](https://github.com/noble/noble/issues/214)
+- [Raspberry Pi 3B+ が保持できる BLE コネクション数の限界を調べてみた #RaspberryPi](https://dev.classmethod.jp/articles/raspberry-pi-3b-plus-max-ble-connection/)
 
 ### 制限に係る事項(要調査)
 
